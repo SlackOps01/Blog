@@ -2,11 +2,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 10px;
-    margin-left: 40px;
-    margin-right: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 100%;
 }
 .other-articles-card{
-    background-image: linear-gradient(#4e7988, 78cce2);
+    background-color: rgba(51, 51, 51, 0.8);
     height: 240px;
     border-radius: 5px;
     margin-bottom: 10px;
@@ -29,8 +30,9 @@
     border-top-left-radius: 5px;
 }
 .other-article-text{
+    font-size: 13px;
     width: 90%;
     margin-left: 5px;
     font-weight: bold;
-    color: #e4eff0;
+    color: #00ff00;
 }
